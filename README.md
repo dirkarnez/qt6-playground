@@ -8,6 +8,7 @@ qt6-playground
 ### Tutorials
 - https://github.com/webcamoid/webcamoid/blob/master/CMakeLists.txt
 - [使用CMake组织构建QT项目_cmake 构建qt项目-CSDN博客](https://blog.csdn.net/yang1fei2/article/details/141777944)
+- [ui(new Ui::MainWindow)的解析-CSDN博客](https://blog.csdn.net/sinat_31608641/article/details/130674349)
 
 ### TODOs
 - [ ] remove logic in .github/workflows/build.yml
