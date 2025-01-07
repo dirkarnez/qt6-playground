@@ -1,6 +1,6 @@
-portaudio-playground
-====================
-![](https://github.com/dirkarnez/portaudio-playground/actions/workflows/build.yml/badge.svg)
+qt6-playground
+==============
+![](https://github.com/dirkarnez/qt6-playground/actions/workflows/build.yml/badge.svg)
 
 ### Using
 - [dirkarnez/portaudio-prebuilt](https://github.com/dirkarnez/portaudio-prebuilt)
