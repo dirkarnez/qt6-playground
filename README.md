@@ -3,7 +3,7 @@ qt6-playground
 ![](https://github.com/dirkarnez/qt6-playground/actions/workflows/build.yml/badge.svg)
 
 ### Using
-- [dirkarnez/qt6-prebuilt](https://github.com/dirkarnez/qt6-prebuilt)
+- [dirkarnez/qtbase-prebuilt](https://github.com/dirkarnez/qtbase-prebuilt)
 
 ### Tutorials
 - https://github.com/webcamoid/webcamoid/blob/master/CMakeLists.txt
