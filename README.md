@@ -2,6 +2,10 @@ qt6-playground
 ==============
 ![](https://github.com/dirkarnez/qt6-playground/actions/workflows/build.yml/badge.svg)
 
+### Samples
+- [royqh1979/QImageViewer: A light-weight image viewer based on qt](https://github.com/royqh1979/QImageViewer)
+- [royqh1979/RedPanda-CPP: A light-weight C/C++ IDE based on Qt](https://github.com/royqh1979/RedPanda-CPP)
+
 ### Using
 - [dirkarnez/qtbase-prebuilt](https://github.com/dirkarnez/qtbase-prebuilt)
 
