@@ -12,6 +12,7 @@ qt6-playground
 - [qtbase/examples at qtbuild.5.13.2 · Unity-Technologies/qtbase](https://github.com/Unity-Technologies/qtbase/tree/qtbuild.5.13.2/examples)
 - [【Qt官方例程学习笔记】Application Example（构成界面/QAction/退出时询问保存/用户偏好载入和保存/文本文件的载入和保存/QCommandLineParser解析运行参数） - 霄林 - 博客园](https://www.cnblogs.com/pplxlee/p/11013938.html)
 - [**基于QEMU模拟器搭建Builtroot下的QT开发环境**](https://www.cnblogs.com/arnoldlu/p/17250728.html)
+- [Boot to Qt documentation | Qt 6.10.0](https://doc.qt.io/Boot2Qt/)
 
 ### TODOs
 - [ ] remove logic in .github/workflows/build.yml
