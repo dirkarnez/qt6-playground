@@ -5,6 +5,9 @@ qt6-playground
 ### Using
 - [dirkarnez/qtbase-prebuilt](https://github.com/dirkarnez/qtbase-prebuilt)
 
+### TODOs
+- [ ] Try [Package: mingw-w64-x86_64-qt6-static - MSYS2 Packages](https://packages.msys2.org/packages/mingw-w64-x86_64-qt6-static)
+
 ### Tutorials
 - https://github.com/webcamoid/webcamoid/blob/master/CMakeLists.txt
 - [使用CMake组织构建QT项目_cmake 构建qt项目-CSDN博客](https://blog.csdn.net/yang1fei2/article/details/141777944)
