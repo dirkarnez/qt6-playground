@@ -63,11 +63,11 @@ jobs:
         with:
           type: 'zip'
           directory: "cmake-build"
-          filename: "${{ github.event.repository.name }}-${{ github.ref_name }}-${{ matrix.compiler.name }}.zip"
+          filename: "${{ github.event.repository.name }}-${{ github.ref_name }}-13.1.0-202407240918mingw1310.zip"
         
       - name: Release prebuilt
         uses: ncipollo/release-action@v1
         with:
-          artifacts: "cmake-build/${{ github.event.repository.name }}-${{ github.ref_name }}-${{ matrix.compiler.name }}.zip"
+          artifacts: "cmake-build/${{ github.event.repository.name }}-${{ github.ref_name }}-13.1.0-202407240918mingw1310.zip"
           allowUpdates: true
           token: ${{ secrets.GITHUB_TOKEN }}
