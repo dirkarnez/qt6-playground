@@ -19,9 +19,8 @@ set PATH=^
 
 cmake.exe -G"Ninja" ^
 -DCMAKE_BUILD_TYPE=Debug ^
--DQt6_DIR="%DOWNLOADS_DIR_LINUX%/qtbase-everywhere-src-6.10.0/cmake-build/installation/lib/cmake/Qt6" ^
+-DQt6_DIR="%DOWNLOADS_DIR_LINUX%/qtbase-v6.10.0-13.1.0-202407240918mingw1310/lib/cmake/Qt6" ^
 -B./cmake-build &&^
 cd cmake-build &&^
 cmake --build . &&^
 echo "Successful build"
-pause
