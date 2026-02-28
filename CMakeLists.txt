@@ -9,20 +9,17 @@ project("qt6-playground")
 
 find_package(Qt6 REQUIRED Widgets)
 
-if(Qt6_FOUND)
-    message(STATUS "YES")
-else()
-    message(STATUS "NO")
-endif()
+message(STATUS "Qt6_FOUND: ${Qt6_FOUND}")
 
-qt_add_executable("qt6-playground"
+qt_add_executable("${PROJECT_NAME}"
     MANUAL_FINALIZATION
     "src/main.cpp"
 )
 
-target_link_libraries("qt6-playground" PRIVATE Qt6::Widgets)
+target_link_libraries("${PROJECT_NAME}" PRIVATE Qt6::Widgets)
 
-# target_link_libraries(${PROJECT_NAME} portaudio_static)
-target_link_options(${PROJECT_NAME} PRIVATE -static -mwindows)
+target_link_options("${PROJECT_NAME}" PRIVATE -static -mwindows)
 
-qt_finalize_executable("qt6-playground")
+set_target_properties("${PROJECT_NAME}" PROPERTIES LINK_FLAGS_RELEASE "-s")
+
+qt_finalize_executable("${PROJECT_NAME}")
