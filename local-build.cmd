@@ -18,7 +18,7 @@ set PATH=^
 %DOWNLOADS_DIR%\cmake-3.29.3-windows-x86_64\cmake-3.29.3-windows-x86_64\bin;
 
 cmake.exe -G"Ninja" ^
--DCMAKE_BUILD_TYPE=Debug ^
+-DCMAKE_BUILD_TYPE=Release ^
 -DQt6_DIR="%DOWNLOADS_DIR_LINUX%/qtbase-v6.10.0-13.1.0-202407240918mingw1310/lib/cmake/Qt6" ^
 -B./cmake-build &&^
 cd cmake-build &&^
