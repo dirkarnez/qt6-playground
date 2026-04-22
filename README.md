@@ -5,6 +5,7 @@ qt6-playground
 ### Samples
 - [royqh1979/QImageViewer: A light-weight image viewer based on qt](https://github.com/royqh1979/QImageViewer)
 - [royqh1979/RedPanda-CPP: A light-weight C/C++ IDE based on Qt](https://github.com/royqh1979/RedPanda-CPP)
+- [makerbot/morepork-ui: The shiny new UI for sombrero](https://github.com/makerbot/morepork-ui)
 
 ### Using
 - [dirkarnez/qtbase-prebuilt](https://github.com/dirkarnez/qtbase-prebuilt)
