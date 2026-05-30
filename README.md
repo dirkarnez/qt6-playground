@@ -12,6 +12,8 @@ qt6-playground
 
 ### TODOs
 - [ ] Try [Package: mingw-w64-x86_64-qt6-static - MSYS2 Packages](https://packages.msys2.org/packages/mingw-w64-x86_64-qt6-static)
+- [ ] Embedded
+   - https://www.linkedin.com/posts/cliffbrake_embeddedlinux-qt-ugcPost-7466201986246475776-HV16/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAACiaVa8B_MLLk9748oOqSKl-2Ov6zjTeVZM
 
 ### Tutorials
 - https://github.com/webcamoid/webcamoid/blob/master/CMakeLists.txt
